@@ -1,22 +1,22 @@
 
-import { DeterminerModule } from '../types';
-import { articlesQuiz } from './quizzes/articles';
-import { demonstrativesQuiz } from './quizzes/demonstratives';
-import { possessivesQuiz } from './quizzes/possessives';
-import { quantifiersQuiz } from './quizzes/quantifiers';
-import { distributivesQuiz } from './quizzes/distributives';
-import { interrogativesQuiz } from './quizzes/interrogatives';
-import { cardinalsQuiz } from './quizzes/cardinals';
-import { ordinalsQuiz } from './quizzes/ordinals';
+import { DeterminerModule } from '../types.ts';
+import { articlesQuiz } from './quizzes/articles.ts';
+import { demonstrativesQuiz } from './quizzes/demonstratives.ts';
+import { possessivesQuiz } from './quizzes/possessives.ts';
+import { quantifiersQuiz } from './quizzes/quantifiers.ts';
+import { distributivesQuiz } from './quizzes/distributives.ts';
+import { interrogativesQuiz } from './quizzes/interrogatives.ts';
+import { cardinalsQuiz } from './quizzes/cardinals.ts';
+import { ordinalsQuiz } from './quizzes/ordinals.ts';
 
-import { articlesInfographic } from './infographics/articles';
-import { demonstrativesInfographic } from './infographics/demonstratives';
-import { possessivesInfographic } from './infographics/possessives';
-import { quantifiersInfographic } from './infographics/quantifiers';
-import { distributivesInfographic } from './infographics/distributives';
-import { interrogativesInfographic } from './infographics/interrogatives';
-import { cardinalsInfographic } from './infographics/cardinals';
-import { ordinalsInfographic } from './infographics/ordinals';
+import { articlesInfographic } from './infographics/articles.ts';
+import { demonstrativesInfographic } from './infographics/demonstratives.ts';
+import { possessivesInfographic } from './infographics/possessives.ts';
+import { quantifiersInfographic } from './infographics/quantifiers.ts';
+import { distributivesInfographic } from './infographics/distributives.ts';
+import { interrogativesInfographic } from './infographics/interrogatives.ts';
+import { cardinalsInfographic } from './infographics/cardinals.ts';
+import { ordinalsInfographic } from './infographics/ordinals.ts';
 
 export interface ModuleData extends DeterminerModule {
   infographic: any;

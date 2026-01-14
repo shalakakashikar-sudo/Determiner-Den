@@ -1,7 +1,7 @@
 
 import React from 'react';
-import { DETERMINER_MODULES } from '../data/determiners';
-import Mascot from '../components/Mascot';
+import { DETERMINER_MODULES } from '../data/determiners.ts';
+import Mascot from '../components/Mascot.tsx';
 
 interface HomeProps {
   onSelectModule: (id: string) => void;

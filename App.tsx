@@ -1,11 +1,11 @@
 
 import React, { useState } from 'react';
-import Home from './pages/Home';
-import ModulePage from './pages/ModulePage';
-import FinalQuiz from './pages/FinalQuiz';
-import Layout from './components/Layout';
-import { DETERMINER_MODULES } from './data/determiners';
-import { DeterminerTypeId } from './types';
+import Home from './pages/Home.tsx';
+import ModulePage from './pages/ModulePage.tsx';
+import FinalQuiz from './pages/FinalQuiz.tsx';
+import Layout from './components/Layout.tsx';
+import { DETERMINER_MODULES } from './data/determiners.ts';
+import { DeterminerTypeId } from './types.ts';
 
 const App: React.FC = () => {
   const [currentPage, setCurrentPage] = useState<'home' | 'module' | 'finalQuiz'>('home');
