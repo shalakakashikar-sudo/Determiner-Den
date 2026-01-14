@@ -1,0 +1,83 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Determiner Den</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&family=Bubblegum+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+      body {
+        font-family: 'Quicksand', sans-serif;
+        background-color: #FFF9F2;
+        overflow-x: hidden;
+      }
+      .font-bubble {
+        font-family: 'Bubblegum+Sans', cursive;
+      }
+      .glass-card {
+        background: rgba(255, 255, 255, 0.85);
+        backdrop-filter: blur(8px);
+        border: 2px solid rgba(255, 225, 180, 0.5);
+      }
+      
+      /* Mascot Animations */
+      @keyframes float {
+        0%, 100% { transform: translateY(0px) rotate(0deg); }
+        50% { transform: translateY(-15px) rotate(2deg); }
+      }
+      
+      @keyframes breathe {
+        0%, 100% { transform: scale(1); }
+        50% { transform: scale(1.05); }
+      }
+
+      @keyframes jitter {
+        0% { transform: translate(0,0) rotate(0); }
+        25% { transform: translate(2px, 2px) rotate(1deg); }
+        50% { transform: translate(-2px, 1px) rotate(-1deg); }
+        75% { transform: translate(1px, -1px) rotate(1deg); }
+        100% { transform: translate(0,0) rotate(0); }
+      }
+
+      @keyframes sparkle-pop {
+        0% { transform: scale(0); opacity: 0; }
+        50% { opacity: 1; }
+        100% { transform: scale(1.5); opacity: 0; }
+      }
+
+      .animate-float {
+        animation: float 4s ease-in-out infinite;
+      }
+      .animate-breathe {
+        animation: breathe 3s ease-in-out infinite;
+      }
+      .animate-jitter {
+        animation: jitter 0.2s linear infinite;
+      }
+      .sparkle {
+        position: absolute;
+        pointer-events: none;
+        animation: sparkle-pop 0.6s ease-out forwards;
+      }
+
+      .transition-all { transition: all 0.3s ease; }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react-dom/": "https://esm.sh/react-dom@^19.2.3/",
+    "react/": "https://esm.sh/react@^19.2.3/",
+    "react": "https://esm.sh/react@^19.2.3"
+  }
+}
+</script>
+</head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
