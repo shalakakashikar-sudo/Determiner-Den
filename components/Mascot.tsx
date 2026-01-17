@@ -1,3 +1,4 @@
+
 import React, { useState, useEffect, useRef } from 'react';
 import { MascotMood } from '../types';
 import { LEO_COMMENTS } from '../constants/mascotConfig';
@@ -71,10 +72,11 @@ const Mascot: React.FC<MascotProps> = ({ mood: propMood, message, className = ""
     }));
     setSparkles(prev => [...prev, ...newSparkles]);
 
-    setTimeout(() => setIsTickled(false), 2000);
+    // Increased from 2000 to 5000 to let users read the tip longer
+    setTimeout(() => setIsTickled(false), 5000);
     setTimeout(() => {
       setSparkles(prev => prev.filter(s => !newSparkles.find(ns => ns.id === s.id)));
-    }, 1200);
+    }, 1500);
   };
 
   // --- SVG Sub-Renderers ---
@@ -242,10 +244,6 @@ const Mascot: React.FC<MascotProps> = ({ mood: propMood, message, className = ""
           viewBox="0 0 100 100" 
           className={`w-36 h-36 md:w-48 md:h-48 drop-shadow-2xl transition-all duration-500 ${getContainerAnimation()}`}
         >
-          {/* === ORIGINAL LEO BODY === 
-              (Reverted to the spiky mane and simple geometry you preferred)
-          */}
-          
           {/* Mane (Rotating slightly on hover) */}
           <g className="origin-center transition-transform duration-700 group-hover:rotate-12">
             <path d="M50,5 L58,18 L72,12 L75,26 L88,28 L84,42 L95,50 L84,58 L88,72 L75,74 L72,88 L58,82 L50,95 L42,82 L28,88 L25,74 L12,72 L16,58 L5,50 L16,42 L12,28 L25,26 L28,12 L42,18 Z" 
@@ -267,9 +265,6 @@ const Mascot: React.FC<MascotProps> = ({ mood: propMood, message, className = ""
           <ellipse cx="50" cy="60" rx="12" ry="10" fill="#FFFBEB" opacity="0.8" />
           <path d="M46,56 Q50,58 54,56 L50,62 Z" fill="#78350F" stroke="#78350F" strokeWidth="1" strokeLinejoin="round" />
 
-          {/* === NEW EXPRESSION LOGIC ===
-              (Rendered on top of the old body)
-          */}
           {renderSpecialEffects()}
           {renderEyes()}
           {renderMouth()}

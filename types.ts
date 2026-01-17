@@ -1,4 +1,6 @@
+
 export type DeterminerTypeId = 
+  | 'intro'
   | 'articles' 
   | 'demonstratives' 
   | 'possessives' 
@@ -22,7 +24,7 @@ export interface LearnSlide {
   content: string;
   examples: { text: string; isCorrect: boolean }[];
   didYouKnow?: string;
-  infographic?: string; // Placeholder for SVG or Icon name
+  infographic?: string; 
 }
 
 export interface DeterminerModule {
@@ -32,6 +34,13 @@ export interface DeterminerModule {
   color: string;
   learnSlides: LearnSlide[];
   quiz: Question[];
+}
+
+export interface ModuleData extends DeterminerModule {
+  infographic: any;
+  difficulty: 'Beginner' | 'Intermediate' | 'Advanced';
+  description: string;
+  mascotIntro: string;
 }
 
 export type MascotMood = 
