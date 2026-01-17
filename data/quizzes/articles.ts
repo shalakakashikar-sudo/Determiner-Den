@@ -86,5 +86,32 @@ export const articlesQuiz: Question[] = [
   { id: 'art72', type: 'mcq', question: "This is ___ same book I lost.", options: ["a", "an", "the"], correctAnswer: "the", explanation: "'Same' is always preceded by 'the'." },
   { id: 'art73', type: 'mcq', question: "___ United Kingdom consists of four countries.", options: ["A", "An", "The"], correctAnswer: "The", explanation: "Countries with 'United' take 'The'." },
   { id: 'art74', type: 'mcq', question: "It is ___ absurd story.", options: ["a", "an", "the"], correctAnswer: "an", explanation: "Vowel sound." },
-  { id: 'art75', type: 'mcq', question: "___ more, the merrier.", options: ["A", "An", "The"], correctAnswer: "The", explanation: "Double comparative." }
+  { id: 'art75', type: 'mcq', question: "___ more, the merrier.", options: ["A", "An", "The"], correctAnswer: "The", explanation: "Double comparative." },
+
+  // --- Extended Practice (New) ---
+  { id: 'art76', type: 'mcq', question: "Eggs are sold by ___ dozen.", options: ["a", "an", "the"], correctAnswer: "the", explanation: "Units of measurement take 'the'." },
+  { id: 'art77', type: 'mcq', question: "She was playing ___ violin.", options: ["a", "an", "the"], correctAnswer: "the", explanation: "Playing musical instruments takes 'the'." },
+  { id: 'art78', type: 'mcq', question: "I bought ___ violin yesterday.", options: ["a", "an", "the"], correctAnswer: "a", explanation: "Refers to the object itself, not the act of playing." },
+  { id: 'art79', type: 'mcq', question: "The sun sets in ___ West.", options: ["a", "an", "the"], correctAnswer: "the", explanation: "Cardinal directions take 'the'." },
+  { id: 'art80', type: 'mcq', question: "He pulled the cat by ___ tail.", options: ["a", "an", "the"], correctAnswer: "the", explanation: "Refers to a specific body part in this context." },
+  { id: 'art81', type: 'mcq', question: "___ Smiths are coming to dinner.", options: ["A", "An", "The"], correctAnswer: "The", explanation: "Plural family names take 'The'." },
+  { id: 'art82', type: 'mcq', question: "She works as ___ NASA scientist.", options: ["a", "an", "the"], correctAnswer: "a", explanation: "NASA is pronounced as a word starting with 'N' (consonant)." },
+  { id: 'art83', type: 'mcq', question: "He is ___ FBI agent.", options: ["a", "an", "the"], correctAnswer: "an", explanation: "FBI is pronounced 'Ef-Bee-Eye', starting with a vowel sound." },
+  { id: 'art84', type: 'mcq', question: "___ President Lincoln was a great leader.", options: ["The", "A", "No article"], correctAnswer: "No article", explanation: "Titles before names generally do not take articles." },
+  { id: 'art85', type: 'mcq', question: "___ President is addressing the nation.", options: ["The", "A", "No article"], correctAnswer: "The", explanation: "Titles used without a name take 'The'." },
+  { id: 'art86', type: 'mcq', question: "I met him in ___ morning.", options: ["a", "an", "the"], correctAnswer: "the", explanation: "Parts of the day (morning, afternoon, evening) take 'the'." },
+  { id: 'art87', type: 'mcq', question: "We travel at ___ night.", options: ["a", "the", "No article"], correctAnswer: "No article", explanation: "'At night' is a fixed phrase without an article." },
+  { id: 'art88', type: 'mcq', question: "He goes to ___ church every Sunday.", options: ["a", "the", "No article"], correctAnswer: "No article", explanation: "Primary purpose (worship) = no article." },
+  { id: 'art89', type: 'mcq', question: "The tourists visited ___ church.", options: ["a", "an", "the"], correctAnswer: "the", explanation: "Visiting the building (not for worship) takes 'the'." },
+  { id: 'art90', type: 'mcq', question: "___ Philippines is an archipelago.", options: ["A", "An", "The"], correctAnswer: "The", explanation: "Plural country/island group names take 'The'." },
+  { id: 'art91', type: 'mcq', question: "Who invented ___ telephone?", options: ["a", "an", "the"], correctAnswer: "the", explanation: "Inventions representing the class take 'the'." },
+  { id: 'art92', type: 'mcq', question: "___ English language is spoken worldwide.", options: ["A", "An", "The"], correctAnswer: "The", explanation: "When followed by the word 'language', use 'The'." },
+  { id: 'art93', type: 'mcq', question: "___ English are known for their tea.", options: ["A", "An", "The"], correctAnswer: "The", explanation: "Refers to the people of England." },
+  { id: 'art94', type: 'mcq', question: "He lives on ___ Main Street.", options: ["a", "the", "No article"], correctAnswer: "No article", explanation: "Names of streets usually do not take articles." },
+  { id: 'art95', type: 'mcq', question: "I am going to ___ bed.", options: ["a", "the", "No article"], correctAnswer: "No article", explanation: "Going to sleep (primary purpose)." },
+  { id: 'art96', type: 'mcq', question: "___ dinner was delicious.", options: ["A", "An", "The"], correctAnswer: "The", explanation: "Referring to a specific meal we just ate." },
+  { id: 'art97', type: 'mcq', question: "___ winter of 1942 was very cold.", options: ["A", "An", "The"], correctAnswer: "The", explanation: "A specific season defined by the year." },
+  { id: 'art98', type: 'mcq', question: "What ___ idea!", options: ["a", "an", "the"], correctAnswer: "an", explanation: "Exclamation with singular count noun starting with vowel." },
+  { id: 'art99', type: 'mcq', question: "He showed ___ great courage.", options: ["a", "the", "No article"], correctAnswer: "No article", explanation: "Abstract nouns modified by adjectives usually take no article unless specific." },
+  { id: 'art100', type: 'mcq', question: "___ blind need our help.", options: ["A", "An", "The"], correctAnswer: "The", explanation: "'The' + adjective represents a collective group of people." }
 ];

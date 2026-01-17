@@ -182,7 +182,7 @@ const ModulePage: React.FC<ModulePageProps> = ({ module, onBack }) => {
                     <p className="text-3xl md:text-4xl font-bubble leading-tight italic relative z-10">
                       "<TextFormatter text={slide.didYouKnow} />"
                     </p>
-                  </div>
+                   </div>
                 </div>
               )}
             </div>
@@ -431,7 +431,7 @@ const ModulePage: React.FC<ModulePageProps> = ({ module, onBack }) => {
         <Mascot mood={isGreatScore ? 'happy' : 'idle'} className="scale-125" message={isGreatScore ? "You're the King of the Jungle!" : "Great effort, young cub! Let's practice more."} />
         
         <div className="space-y-6">
-          <h2 className="text-7xl font-bubble text-orange-600">The Hunt is Over!</h2>
+          <h2 className="text-5xl md:text-6xl font-bubble text-orange-600">The Hunt is Over!</h2>
           <div className="flex flex-col items-center gap-2">
             <p className="text-4xl font-black text-gray-800">Your Score: {score} / {activeQuestions.length}</p>
             <div className="w-full max-w-xl h-8 bg-stone-200 rounded-full overflow-hidden mt-6 p-1">

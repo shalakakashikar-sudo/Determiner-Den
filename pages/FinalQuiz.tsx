@@ -199,7 +199,7 @@ const FinalQuiz: React.FC<FinalQuizProps> = ({ onBack }) => {
       <div className="max-w-4xl mx-auto py-12 text-center flex flex-col items-center space-y-12 animate-in fade-in duration-500 pb-20">
         <Mascot mood={isHero ? 'happy' : 'idle'} className="scale-125" message={isHero ? "You have conquered the Den!" : "A valiant effort! The jungle path continues."} />
         <div className="space-y-6">
-          <h1 className="text-7xl font-bubble text-orange-600">The Final Roar!</h1>
+          <h1 className="text-5xl md:text-6xl font-bubble text-orange-600">The Final Roar!</h1>
           <p className="text-4xl font-black text-gray-800">Final Score: {score} / {questions.length}</p>
           <div className="w-full bg-stone-200 h-10 rounded-full overflow-hidden max-w-xl mx-auto mt-6 p-1.5 shadow-inner">
             <div className={`h-full rounded-full transition-all duration-[2s] ${isHero ? 'bg-green-500' : 'bg-orange-500'} shadow-lg`} style={{ width: `${percentage}%` }}></div>

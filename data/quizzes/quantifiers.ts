@@ -86,5 +86,36 @@ export const quantifiersQuiz: Question[] = [
   { id: 'qua72', type: 'mcq', question: "There are two ___ in my soup.", options: ["hairs", "hair"], correctAnswer: "hairs", explanation: "Individual strands are countable." },
   { id: 'qua73', type: 'mcq', question: "I drank ___ glass of water.", options: ["whole", "all"], correctAnswer: "whole", explanation: "'Whole' refers to the entirety of a singular count noun." },
   { id: 'qua74', type: 'mcq', question: "I drank ___ the water.", options: ["whole", "all"], correctAnswer: "all", explanation: "'All' refers to the total amount of an uncountable." },
-  { id: 'qua75', type: 'mcq', question: "You have ___ of charm.", options: ["much", "a great deal"], correctAnswer: "a great deal", explanation: "Formal quantifier for uncountables." }
+  { id: 'qua75', type: 'mcq', question: "You have ___ of charm.", options: ["much", "a great deal"], correctAnswer: "a great deal", explanation: "Formal quantifier for uncountables." },
+
+  // --- New Practice: "The Few" / "The Little" (Total of small amount) ---
+  { id: 'qua76', type: 'mcq', question: "___ friends he has are all very loyal.", options: ["The few", "A few", "Few"], correctAnswer: "The few", explanation: "Refers to the specific small group he has." },
+  { id: 'qua77', type: 'mcq', question: "He gambled away ___ money he had left.", options: ["a little", "the little", "little"], correctAnswer: "the little", explanation: "Refers to the entirety of the small amount." },
+  { id: 'qua78', type: 'mcq', question: "I read ___ books I own.", options: ["a few", "the few", "few"], correctAnswer: "the few", explanation: "Refers to the specific group of books." },
+  { id: 'qua79', type: 'mcq', question: "She gave the beggar ___ food she had.", options: ["the little", "a little", "little"], correctAnswer: "the little", explanation: "She gave all of the small amount she possessed." },
+  { id: 'qua80', type: 'mcq', question: "___ clothes he has are very old.", options: ["The few", "Few", "A few"], correctAnswer: "The few", explanation: "Refers to all the clothes he owns." },
+
+  // --- New Practice: Less vs. Fewer ---
+  { id: 'qua81', type: 'mcq', question: "I have ___ problems than you.", options: ["less", "fewer"], correctAnswer: "fewer", explanation: "Problems are countable. Use 'Fewer'." },
+  { id: 'qua82', type: 'mcq', question: "This gadget costs ___ money.", options: ["less", "fewer"], correctAnswer: "less", explanation: "Money is uncountable. Use 'Less'." },
+  { id: 'qua83', type: 'mcq', question: "There are ___ people here than yesterday.", options: ["less", "fewer"], correctAnswer: "fewer", explanation: "People are countable." },
+  { id: 'qua84', type: 'mcq', question: "Eat ___ sugar to stay healthy.", options: ["less", "fewer"], correctAnswer: "less", explanation: "Sugar is uncountable." },
+  { id: 'qua85', type: 'mcq', question: "Use ___ words to explain it.", options: ["less", "fewer"], correctAnswer: "fewer", explanation: "Words are countable." },
+
+  // --- New Practice: Tricky Uncountables & Phrases ---
+  { id: 'qua86', type: 'mcq', question: "We need to buy new ___ for the office.", options: ["equipment", "equipments"], correctAnswer: "equipment", explanation: "Equipment is uncountable and singular." },
+  { id: 'qua87', type: 'mcq', question: "She wears too ___ jewelry.", options: ["much", "many"], correctAnswer: "much", explanation: "Jewelry is uncountable." },
+  { id: 'qua88', type: 'mcq', question: "The police found ___ evidence.", options: ["many", "some"], correctAnswer: "some", explanation: "Evidence is uncountable." },
+  { id: 'qua89', type: 'mcq', question: "The scenery here ___ beautiful.", options: ["is", "are"], correctAnswer: "is", explanation: "Scenery is uncountable (singular)." },
+  { id: 'qua90', type: 'mcq', question: "I need to buy a loaf of ___.", options: ["bread", "breads"], correctAnswer: "bread", explanation: "Bread is uncountable." },
+  { id: 'qua91', type: 'mcq', question: "There is a large ___ of water.", options: ["number", "amount"], correctAnswer: "amount", explanation: "'Amount' is for uncountables." },
+  { id: 'qua92', type: 'mcq', question: "There is a large ___ of cars.", options: ["number", "amount"], correctAnswer: "number", explanation: "'Number' is for countables." },
+  { id: 'qua93', type: 'mcq', question: "___ my parents are doctors.", options: ["Both", "All"], correctAnswer: "Both", explanation: "Parents are a pair (2)." },
+  { id: 'qua94', type: 'mcq', question: "I waited for you ___ day.", options: ["all", "whole"], correctAnswer: "all", explanation: "We say 'All day' or 'The whole day'." },
+  { id: 'qua95', type: 'mcq', question: "___ student must take the exam.", options: ["All", "Every"], correctAnswer: "Every", explanation: "'Every' is followed by a singular noun." },
+  { id: 'qua96', type: 'mcq', question: "___ birds can fly.", options: ["Most", "Most of"], correctAnswer: "Most", explanation: "General statement about the group." },
+  { id: 'qua97', type: 'mcq', question: "___ the birds in this cage are yellow.", options: ["Most", "Most of"], correctAnswer: "Most of", explanation: "Specific group (the birds)." },
+  { id: 'qua98', type: 'mcq', question: "I have ___ money left.", options: ["hardly any", "hardly some"], correctAnswer: "hardly any", explanation: "'Hardly' implies a negative meaning." },
+  { id: 'qua99', type: 'mcq', question: "___ man has tried to climb this.", options: ["Many a", "Many"], correctAnswer: "Many a", explanation: "'Many a' is followed by a singular noun." },
+  { id: 'qua100', type: 'mcq', question: "There were ___ people at the concert.", options: ["scores of", "much"], correctAnswer: "scores of", explanation: "'Scores of' means 'a large number of' (Countable)." }
 ];

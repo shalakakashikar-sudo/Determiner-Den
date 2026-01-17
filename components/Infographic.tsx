@@ -28,19 +28,19 @@ const Infographic: React.FC<InfographicProps> = ({ data }) => {
       <div className="absolute -bottom-48 -left-48 w-[40rem] h-[40rem] bg-orange-200 rounded-full blur-[150px] opacity-20"></div>
 
       <div className="relative z-10">
-        <header className="flex flex-col items-center mb-20 md:mb-32">
-          <div className="inline-flex items-center gap-8 bg-white/95 backdrop-blur-3xl px-12 py-8 rounded-[3.5rem] shadow-[0_30px_70px_-20px_rgba(0,0,0,0.12)] border-4 border-white ring-[14px] ring-stone-100/50 mb-10 transform -rotate-1 hover:rotate-0 transition-all duration-1000 ease-out group cursor-default">
-            <div className={`w-24 h-24 rounded-[2rem] ${data.color} flex items-center justify-center text-white text-5xl shadow-2xl shadow-${baseColorClass}/40 group-hover:scale-110 transition-transform duration-500`}>
+        <header className="flex flex-col items-center mb-16 md:mb-24">
+          <div className="inline-flex items-center gap-8 bg-white/95 backdrop-blur-3xl px-10 py-6 rounded-[3rem] shadow-[0_30px_70px_-20px_rgba(0,0,0,0.12)] border-4 border-white ring-[14px] ring-stone-100/50 mb-10 transform -rotate-1 hover:rotate-0 transition-all duration-1000 ease-out group cursor-default">
+            <div className={`w-16 h-16 rounded-[1.5rem] ${data.color} flex items-center justify-center text-white text-3xl shadow-2xl shadow-${baseColorClass}/40 group-hover:scale-110 transition-transform duration-500`}>
               <i className="fas fa-scroll"></i>
             </div>
-            <h3 className="text-6xl md:text-9xl font-bubble text-gray-800 tracking-tight leading-none">
+            <h3 className="text-4xl md:text-6xl font-bubble text-gray-800 tracking-tight leading-none">
               {data.title}
             </h3>
           </div>
           <div className="flex items-center gap-10">
-            <span className={`h-2 w-24 rounded-full ${data.color} opacity-20`}></span>
-            <span className="text-sm font-black text-stone-400 uppercase tracking-[1em] italic">Official Jungle Decree</span>
-            <span className={`h-2 w-24 rounded-full ${data.color} opacity-20`}></span>
+            <span className={`h-1 w-16 rounded-full ${data.color} opacity-20`}></span>
+            <span className="text-[10px] font-black text-stone-400 uppercase tracking-[1em] italic">Official Jungle Decree</span>
+            <span className={`h-1 w-16 rounded-full ${data.color} opacity-20`}></span>
           </div>
         </header>
 
@@ -167,19 +167,6 @@ const Infographic: React.FC<InfographicProps> = ({ data }) => {
             </div>
           </div>
 
-        </div>
-
-        {/* REFINED FOOTER: Verified Pride Badge */}
-        <div className="mt-32 flex justify-center">
-           <div className="bg-white/60 backdrop-blur-3xl px-16 py-8 rounded-[4rem] border-2 border-white flex items-center gap-10 shadow-[0_40px_100px_-20px_rgba(0,0,0,0.15)] hover:scale-105 transition-all duration-700 cursor-help">
-             <div className="w-20 h-20 rounded-full bg-green-500 text-white flex items-center justify-center text-3xl shadow-2xl shadow-green-200/50 animate-pulse">
-               <i className="fas fa-check-double"></i>
-             </div>
-             <div className="text-left">
-               <p className="text-2xl font-black text-gray-800 leading-none mb-3 uppercase tracking-tighter">Verified Jungle Law</p>
-               <p className="text-xs text-stone-400 font-black uppercase tracking-[0.5em] italic opacity-80">Pride Expert Approved • Fully Offline Den Resource</p>
-             </div>
-           </div>
         </div>
       </div>
     </div>
