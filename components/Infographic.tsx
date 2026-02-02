@@ -33,7 +33,8 @@ const Infographic: React.FC<InfographicProps> = ({ data }) => {
             <div className={`w-16 h-16 rounded-[1.5rem] ${data.color} flex items-center justify-center text-white text-3xl shadow-2xl shadow-${baseColorClass}/40 group-hover:scale-110 transition-transform duration-500`}>
               <i className="fas fa-scroll"></i>
             </div>
-            <h3 className="text-4xl md:text-6xl font-bubble text-gray-800 tracking-tight leading-none">
+            {/* Reduced Title Size */}
+            <h3 className="text-3xl md:text-5xl font-bubble text-gray-800 tracking-tight leading-none">
               {data.title}
             </h3>
           </div>
